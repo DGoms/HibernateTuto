@@ -34,5 +34,7 @@ public class Main {
         } finally {
             session.close();
         }
+
+        System.exit(0);
     }
 }
