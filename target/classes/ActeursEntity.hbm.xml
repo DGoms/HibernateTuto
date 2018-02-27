@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Model.ActeursEntity" table="acteurs" schema="b3">
+        <id name="codeActeur" column="codeActeur"/>
+        <property name="prenomActeur" column="prenomActeur"/>
+        <property name="nomActeur" column="nomActeur"/>
+        <property name="sexeActeur" column="sexeActeur"/>
+        <property name="anneeNaissanceActeur" column="anneeNaissanceActeur"/>
+        <property name="image" column="image"/>
+    </class>
+</hibernate-mapping>
